@@ -502,10 +502,4 @@ namespace BWUK
     }
     this->inUpdate = false;
   }
-
-  /** Arbitrates the allication of a set of Unit among a set of UnitController */
-  typedef Arbitrator< BWAPI::Unit, double > UnitArbitrator;
-
-  /** Bids for control of units with a UnitArbitrator */
-  typedef Controller< BWAPI::Unit, double > UnitController;
 }
