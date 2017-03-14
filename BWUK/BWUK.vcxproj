@@ -68,14 +68,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mk.cc" />
+    <ClCompile Include="src\ReservedMap.cpp" />
     <ClCompile Include="src\UnitGroup.cpp" />
     <ClCompile Include="src\UnitGroupManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\BWUK.h" />
     <ClInclude Include="include\BWUK\Arbitrator.h" />
     <ClInclude Include="include\BWUK\Controller.h" />
     <ClInclude Include="include\BWUK\Heap.h" />
+    <ClInclude Include="include\BWUK\RectangleArray.h" />
+    <ClInclude Include="include\BWUK\ReservedMap.h" />
     <ClInclude Include="include\BWUK\UnitController.h" />
     <ClInclude Include="include\BWUK\UnitGroup.h" />
     <ClInclude Include="include\BWUK\UnitGroupManager.h" />
